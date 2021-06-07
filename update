@@ -1,0 +1,16 @@
+#!/usr/bin/bash
+echo "Se instalara una nueva version"
+sleep 1s
+cd ..
+echo "eliminando archivos antiguos"
+rm -fr sodack
+sleep 2s
+git clone https://github.com/Blacksterhack/sodack
+sleep 1s
+cd sodack
+chmod +x *
+sleep2s
+echo "Se ha instalado una nueva version de este repositorio"
+sleep2s
+clear
+ls
