@@ -59,7 +59,7 @@ if __name__=="__main__":
 					print('')
 					input()
 			except shodan.APIError:
-				print("Error")
+				print("Error la API no ha sido encontrada")
 				input()
 
 		elif ask==2:
