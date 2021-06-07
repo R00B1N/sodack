@@ -1,0 +1,6 @@
+#!/usr/bin/bash
+echo "Se instalara lo necesario para correr el script"
+sleep 2s
+pip install shodan
+pip install colorama
+echo "los paquetes requeridos han sido instalados"
