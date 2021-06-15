@@ -19,6 +19,9 @@ banner = """
   ___) | (_) | (_| | (_| | (__|   < 
  |____/ \___/ \__,_|\__,_|\___|_|\_\\
 """
+"""
+Pedirle al usuario la entrada de su api-key, la cual se encontrara en su cuenta de shodan y totalmente gratuita.
+"""
 SHODAN_API_KEY = str(input("\n\n[*]Inserta tu api-key de shodan aqui:>> "))
 api = shodan.Shodan(SHODAN_API_KEY)
 
@@ -30,6 +33,9 @@ def inicio():
 	print("\t\tBy Blackster")
 	print(Fore.YELLOW)
 	print("\nAdvertencia: Este script ha sido creado con fines educativos, por lo tanto \nno me hago responsable del mal uso que se le de a esta herramienta.")
+	"""
+	Creacion de un menu de opciones para nuestro script.
+	"""
 	menu = """
 ********************++[ Menu ]++*******************
 
@@ -45,6 +51,9 @@ def inicio():
 
 
 if __name__=="__main__":
+	"""
+	Inicio del ciclo y condicionales.
+	"""
 	while True:
 		inicio()
 		ask = int(input("[*]Escoge una opcion:>> "))
