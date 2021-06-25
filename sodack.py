@@ -5,7 +5,9 @@
 # uso: python sodack.py
 # Autor: Blackster
 
-
+"""
+Importamos los modulos necesarios para nuestro script.
+"""
 import os
 import shodan
 import random
@@ -25,6 +27,9 @@ Pedirle al usuario la entrada de su api-key, la cual se encontrara en su cuenta 
 SHODAN_API_KEY = str(input("\n\n[*]Inserta tu api-key de shodan aqui:>> "))
 api = shodan.Shodan(SHODAN_API_KEY)
 
+"""
+Funcion inicial para nuestro script.
+"""
 def inicio():
 	os.system('clear')
 	print(Fore.RED)
@@ -104,7 +109,7 @@ if __name__=="__main__":
 						print("\nPresiona enter para seguir mostrando resultados!!")
 						input()
 				except shodan.APIError:
-					print("Error")
+					print("Error, Esto ha sido generado intencionalmente XD")
 					input()
 			else:
 				if ale==1:
@@ -120,7 +125,7 @@ if __name__=="__main__":
 							print("\nPresiona enter para seguir mostrando resultados!!")
 							input()
 					except shodan.APIError:
-						print("Error")
+						print("Error, Esto ha sido generado intencionalmente XD")
 						input()
 
 		elif ask==4:
@@ -153,7 +158,7 @@ if __name__=="__main__":
 						print("\nPresiona enter para seguir mostrando resultados!!")
 						input()
 				except shodan.APIError:
-					print("Error")
+					print("Error, Esto ha sido generado intencionalmente XD")
 					input()
 			elif aleat==2:
 				print(Fore.CYAN)
@@ -168,7 +173,7 @@ if __name__=="__main__":
 						print("\nPresiona enter para seguir mostrando resultados!!")
 						input()
 				except shodan.APIError:
-					print("Error")
+					print("Error, Esto ha sido generado intencionalmente XD")
 					input()
 			elif aleat==3:
 				print(Fore.CYAN)
@@ -183,7 +188,7 @@ if __name__=="__main__":
 						print("\nPresiona enter para seguir mostrando resultados!!")
 						input()
 				except shodan.APIError:
-					print("Error")
+					print("Error, Esto ha sido generado intencionalmente XD")
 					input()
 			elif aleat==4:
 				print(Fore.CYAN)
@@ -198,7 +203,7 @@ if __name__=="__main__":
 						print("\nPresiona enter para seguir mostrando resultados!!")
 						input()
 				except shodan.APIError:
-					print("Error")
+					print("Error, Esto ha sido generado intencionalmente XD")
 					input()
 			elif aleat==5:
 				print(Fore.CYAN)
@@ -213,7 +218,7 @@ if __name__=="__main__":
 						print("\nPresiona enter para seguir mostrando resultados!!")
 						input()
 				except shodan.APIError:
-					print("Error")
+					print("Error, Esto ha sido generado intencionalmente XD")
 					input()
 			elif aleat==6:
 				print(Fore.CYAN)
@@ -228,7 +233,7 @@ if __name__=="__main__":
 						print("\nPresiona enter para seguir mostrando resultados!!")
 						input()
 				except shodan.APIError:
-					print("Error")
+					print("Error, Esto ha sido generado intencionalmente XD")
 					input()
 
 		else:
